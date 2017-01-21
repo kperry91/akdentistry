@@ -1,0 +1,55 @@
+header {
+  margin: 0 auto 0 auto;
+  display: inline;
+}
+
+header h1 {
+  font-family: 'phantom', sans-serif;
+  font-size: 24px;
+  margin: 0 auto 0 auto;
+}
+
+header h5 {
+  font-family: 'Northwest Pacific', monospace;
+}
+
+nav {
+  background-color: #61116a;
+  padding: 1px;
+}
+
+ul {
+  list-style-type: none;
+}
+nav li a{
+  text-decoration: none;
+  color: white;
+}
+nav li {
+  display: inline;
+  padding: 10px;
+  margin: 0 auto 0 auto;
+  width: 100%;
+}
+
+nav li:hover {
+  background-color: #ba96be;
+}
+
+.quote img {
+  margin: 0 auto 0 auto;
+  padding: 10px;
+}
+.quote p {
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+footer {
+  background-color: #61116a;
+  width: 100%;
+}
+footer p {
+  color: white;
+  padding: 10px;
+}
