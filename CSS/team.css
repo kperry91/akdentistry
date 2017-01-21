@@ -1,16 +1,20 @@
 header {
-  margin: 0 auto 0 auto;
+  /* margin: 0 auto 0 auto;*/
   display: inline;
 }
 
 header h1 {
-  font-family: 'phantom', sans-serif;
+  font-family: 'Arsenal', sans-serif;
   font-size: 24px;
-  margin: 0 auto 0 auto;
+  /* margin: 0 auto 0 auto;*/
 }
 
 header h5 {
-  font-family: 'Northwest Pacific', monospace;
+  font-family: 'Coming Soon', cursive;
+}
+img #id{
+  width: 50px;
+
 }
 
 nav {
@@ -25,10 +29,14 @@ nav li a{
   text-decoration: none;
   color: white;
 }
+nav li a:hover {
+  text-decoration: none;
+  color: white;
+}
 nav li {
   display: inline;
+  /*margin: 0 auto 0 auto;*/
   padding: 10px;
-  margin: 0 auto 0 auto;
   width: 100%;
 }
 
@@ -37,14 +45,16 @@ nav li:hover {
 }
 
 .quote img {
-  margin: 0 auto 0 auto;
+  /* margin: 0 auto 0 auto;*/
   padding: 10px;
 }
 .quote p {
-  margin: 0 auto 0 auto;
+/* margin: 0 auto 0 auto;*/
   text-align: center;
 }
-
+.team {
+  margin: 10px auto;
+}
 footer {
   background-color: #61116a;
   width: 100%;
