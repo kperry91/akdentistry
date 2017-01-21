@@ -40,11 +40,12 @@ ul {
   list-style-type: none;
   margin: auto 0px auto 0px;
   padding: 8px 10px;
+  text-align: center;
 }
 nav li a{
   text-decoration: none;
   color: white;
-  margin: auto 20px auto 20px;
+  margin: auto 10px auto 10px;
 }
 nav li a:hover {
   text-decoration: none;
@@ -58,8 +59,14 @@ nav li {
 
 nav li:hover {
   background-color: #ba96be;
+  width: 10px;
 }
-
+ hr {
+   width: 50%;
+   color: grey;
+   background-color: grey;
+   height: 1px;
+ }
 .quote img {
   /* margin: 0 auto 0 auto;*/
   padding: 10px;
