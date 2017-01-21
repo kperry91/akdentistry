@@ -68,8 +68,10 @@ nav li:hover {
    height: 1px;
  }
 .quote img {
-  /* margin: 0 auto 0 auto;*/
-  padding: 10px;
+  margin: auto;
+  padding-top: 10px;
+  position:relative;
+
 }
 .quote p {
 /* margin: 0 auto 0 auto;*/
