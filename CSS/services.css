@@ -67,30 +67,25 @@ nav li:hover {
    background-color: grey;
    height: 1px;
  }
-.quote img {
-  margin: auto;
-  padding-top: 10px;
-  position:relative;
 
-}
 .quote p {
 /* margin: 0 auto 0 auto;*/
   text-align: center;
-  margin: 0px 40px;
+  margin: 10px 40px 0px;
+  padding-top: 10px;
+  font-size: 16px;
 }
-.team {
+.services {
   margin: 10px auto;
-
-
 }
-.team h4 {
+.services h4 {
   text-align: center;
 }
-.team img {
+.services img {
   margin: 2px 0px;
   padding: 0px 0px;
 }
-.team p {
+.services p {
   margin: 0px 35px 0px 10px;
   text-align: justify;
 }
@@ -98,6 +93,19 @@ nav li:hover {
   margin: 5px;
   padding: 10px;
 }*/
+
+.tips ul {
+  list-style-type: disc;
+  margin: 0px 40px;
+  text-align: center;
+}
+
+.tips li {
+  text-align: left;
+  margin: 10px 50px;
+}
+
+
 footer {
   background-color: #61116a;
   width: 100%;
