@@ -2,57 +2,107 @@
 <html>
 <head>
   <title>Alaska Dentistry for Kids-Contact</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="CSS/contact.css">
 </head>
 
 <body>
-  <header>
-    <div class="nav left">
-      <img src="icons/dentistlogo.png"/>
-      <h1>Alaska Dentistry for Kids</h1>
-      <h5>We speak kid!</h5>
+  <div class="container">
+    <header>
+    <div class="row">
+        <section class="col-sm-12 col-md-1">
+        <img id="logo" width="75px"src="icons/dentistlogo.png"/>
+      </section>
+      <section class="col-sm-12 col-md-10">
+        <h1>Alaska Dentistry for Kids</h1>
+        <h5>We speak kid!</h5>
+      </section>
+    <!--  <section class="col-sm-10 col-md-2">
+        <h6>Call us today: <a href="tel:9072742525">907-274-2525</a></h6>
+      </section>
+      <section class="col-sm-2 col-md-1">
+      <a href="http://www.facebook.com"><img  width="20px;" height="20px;" src="icons/facebook.png"/></a>
+      <a href="http://www.yelp.com"><img  width="20px;" height="20px;" src="icons/yelp.png"/></a>
+    </section> -->
     </div>
-    <div class="nav right">
-      <h6>Call us today: 907-274-2525</h6>
-      <img width="20px;" height="20px;" src="icons/facebook.png"/>
-      <img width="20px;" height="20px;" src="icons/yelp.png"/>
-    </div>
-  </header>
+    </header>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="services.html">Services + Info</a></li>
-      <li><a href="team.html">Our Team</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services + Info</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
 
-<div>
-  <!--Map here-->
-  <p class="contact">Our Address<br>
-  Huffman</p>
-  <p class="contact">Phone<br>
-  907-274-2525</p>
-  <p class="contact">Email<br>
-  lilteeth@gci.net</p>
+<div class="row">
+  <div class="col-md-12">
+      <h3> Say Hello!</h3>
+      <hr>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <section class="info">
+  <section id="map" style="width:300px;height:300px">
+    <script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(61.110841, -149.855659),
+    zoom: 15
+  }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({
+       position: Latlng,
+       map: map,
+       title: 'Hello World!'
+     });
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+  </section>
+  <section class="contact">
+  <h5>Our Address</h5>
+  <p>1389 Huffman Park Dr, Suite 208, Anchorage, AK 99515</p>
+  <h5>Phone</h5>
+  <p>907-274-2525</p>
+  <h5>Email</h5>
+  <p>lilteeth@gci.net</p>
+</section>
+
 </div>
 
+<div class="col-md-6">
+
 <form>
-  <label for="fname">First Name</label>
+  <label for="fname">Name</label>
   <input type="text" id="fname" name="fname">
-  <label for="lname">Last Name</label>
-  <input type="text" id="lname" name="lname">
+  <label for="number">Phone Number</label>
+  <input type="text" id="number" name="number">
   <label for="email">Email</label>
   <input type="text" id="email" name="email">
   <label for="message">Message</label>
   <input type="text" id="message" name="message">
 </form>
 
-<input type="button" value="New Patient Forms">
-<input type="submit" value="Submit">
+<input type="button" class="button" value="New Patient Forms">
+<input type="button" class="button" value="Submit">
+
+
+</div>
+</section>
+</div>
+
 
   <footer>
     <p>&copy;Alaska Dentistry for Kids</p>
   </footer>
+
+</div>
 </body>
 </html>
