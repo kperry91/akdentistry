@@ -68,13 +68,18 @@ nav li:hover {
    height: 1px;
  }
 
-
 .info{
   margin: 15px 20px 10px;
 }
 .info h5 {
   text-align: left;
    color: #61116a;
+}
+.contact h5 {
+  font-family: 'Arsenal', sans-serif;
+  font-size: 24px;
+  text-align: left;
+  text-decoration: underline;
 }
 .info img {
   margin: 2px 0px;
@@ -83,6 +88,9 @@ nav li:hover {
 .contact p {
   margin: 0px 35px 0px 0px;
   text-align: justify;
+  font-family: 'Montserrat, thin', sans-serif;
+  font-weight: -100;
+  font-size: 16px;
 }
 
 h3{
@@ -92,7 +100,7 @@ h3{
 }
 
 form {
-  border: solid 3px #61116a;
+  /*border: solid 3px #61116a;*/
   margin: 30px 10px 10px 0px;
   padding: 20px;
 }
@@ -104,7 +112,7 @@ input[type=text], select {
     display: inline;
     box-sizing: border-box;
     border: none;
-    border-bottom: solid 2px #61116a;
+    /*border-bottom: solid 2px #61116a;*/
     background-color: #f5f5f5;
 }
 /*input[type=text]:focus {
@@ -118,7 +126,12 @@ input [type=text]:focus {
  #message {
   height: 100px;
 }
-
+label {
+  font-family: 'Arsenal', sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  color: #61116a;
+}
 .button {
     background-color: #61116a;
     border: none;
@@ -128,7 +141,7 @@ input [type=text]:focus {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    margin: 4px 2px 10px;
+    margin: 0px 80px 10px;
     cursor: pointer;
 }
 .button:hover {
