@@ -1,0 +1,79 @@
+header {
+  /* margin: 0 auto 0 auto;*/
+  display: ;
+}
+
+header h1 {
+  font-family: 'Arsenal', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  /* margin: 0 auto 0 auto;*/
+}
+
+header h5 {
+  font-family: 'Coming Soon', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+header h6 a {
+  text-decoration: none;
+  color: black;
+}
+header h6 a:hover {
+  text-decoration: none;
+  color: #61116a;
+}
+header h6 a:active{
+  color: #61116a;
+}
+header img {
+  margin: 10px 0px;
+}
+
+
+nav {
+  background-color: #61116a;
+  padding: 1px;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto 0px auto 0px;
+  padding: 8px 10px;
+  text-align: center;
+}
+nav li a{
+  text-decoration: none;
+  color: white;
+  margin: auto 10px auto 10px;
+}
+nav li a:hover {
+  text-decoration: none;
+  color: white;
+}
+nav li {
+  display: inline;
+  padding: 11px 10px;
+  width: 100%;
+}
+
+nav li:hover {
+  background-color: #ba96be;
+  width: 10px;
+}
+
+.video iframe{
+  margin: 10px auto;
+}
+
+
+footer {
+  background-color: #61116a;
+  width: 100%;
+}
+footer p {
+  font-family: 'Arsenal', sans-serif;
+  color: white;
+  padding: 10px;
+  font-size: 1em;
+}
