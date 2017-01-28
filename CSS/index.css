@@ -77,3 +77,14 @@ footer p {
   padding: 10px;
   font-size: 1em;
 }
+
+@media (max-width: 728px) {
+  iframe{
+    width: 100%;
+  }
+  nav li {
+    display: inline;
+    padding: 5px 10px;
+    width: 100%;
+  }
+}

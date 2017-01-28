@@ -125,4 +125,9 @@ footer p {
   .quote img {
     width: 100%;
   }
-}
+    nav li {
+      display: inline;
+      padding: 5px 10px;
+      width: 100%;
+    }
+  }
