@@ -47,24 +47,10 @@
 <div class="row">
   <div class="col-md-6">
     <section class="info">
-  <section id="map" style="width:300px;height:300px">
-    <script>
-function myMap() {
-  var mapCanvas = document.getElementById("map");
-  var mapOptions = {
-    center: new google.maps.LatLng(61.110841, -149.855659),
-    zoom: 15
-  }
-  var map = new google.maps.Map(mapCanvas, mapOptions);
-  var marker = new google.maps.Marker({
-       position: Latlng,
-       map: map,
-       title: 'Our Location!'
-     });
-}
-</script>
+  <section id="map" >
 
-<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    <iframe style="width:300px;height:300px" src="http://maps.google.com/maps?q=61.110841,-149.855659&z=15&output=embed"></iframe>
+
   </section>
   <section class="contact">
   <h5>Our Address</h5>
