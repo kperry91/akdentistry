@@ -82,6 +82,9 @@ footer p {
   .col-sm-12 {
     width: 100%;
   }
+  .container {
+    width: 100%;
+  }
   iframe{
     width: 100%;
   }
