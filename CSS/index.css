@@ -79,6 +79,9 @@ footer p {
 }
 
 @media (max-width: 728px) {
+  .col-sm-12 {
+    width: 100%;
+  }
   iframe{
     width: 100%;
   }
